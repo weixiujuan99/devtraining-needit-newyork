@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>b4f56467db80a0101e860181ca96192d</answer>
+        <condition table="var__m_sys_decision_input_8de668e7db80a0101e860181ca9619c6">u_request_type=legal^u_what_neededINlegal2^u_priorityIN3,4,5^EQ<item display_value="Legal" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/>
+            <item display_value="Legal 2" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="legal2"/>
+            <item display_value="3,4,5" endquery="false" field="u_priority" goto="false" newquery="false" operator="IN" or="false" value="3,4,5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Assignee Category Decision">8de668e7db80a0101e860181ca9619c6</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_8de668e7db80a0101e860181ca9619c6</input_table>
+        <label> Legal 2</label>
+        <order>300</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-30 05:23:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82f48de7dbc0a0101e860181ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Legal 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_question_82f48de7dbc0a0101e860181ca961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-30 05:23:59</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>354508b9db2517041ddcf22ebf96196a</instance_id>
+        <instance_name>dev56618</instance_name>
+        <name>sys_decision_question_82f48de7dbc0a0101e860181ca961995</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>b4f56467db80a0101e860181ca96192d</answer><condition table="var__m_sys_decision_input_8de668e7db80a0101e860181ca9619c6">u_request_type=legal^u_what_neededINlegal2^u_priorityIN3,4,5^EQ<item display_value="Legal" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/><item display_value="Legal 2" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="legal2"/><item display_value="3,4,5" endquery="false" field="u_priority" goto="false" newquery="false" operator="IN" or="false" value="3,4,5"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="Assignee Category Decision">8de668e7db80a0101e860181ca9619c6</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_8de668e7db80a0101e860181ca9619c6</input_table><label> Legal 2</label><order>300</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-30 05:23:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>82f48de7dbc0a0101e860181ca961995</sys_id><sys_mod_count>0</sys_mod_count><sys_name> Legal 2</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_decision_question_82f48de7dbc0a0101e860181ca961995</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-30 05:23:59</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>-1017623113</payload_hash>
+        <record_name> Legal 2</record_name>
+        <reverted_from/>
+        <source>5923812edb0020101e860181ca9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-30 05:23:59</sys_created_on>
+        <sys_id>14b5092bdbc0a0101e860181ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17577f66cb80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-30 05:23:59</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>5cb5092bb7c0a010de914384a4198d94</update_guid>
+        <update_guid_history>5cb5092bb7c0a010de914384a4198d94:-1017623113</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-30 05:28:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>4fde66b3f836463b8ac00d14a041add1</sys_id>
+        <sys_metadata>82f48de7dbc0a0101e860181ca961995</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Legal 2</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_decision_question_82f48de7dbc0a0101e860181ca961995</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_82f48de7dbc0a0101e860181ca961995">14b5092bdbc0a0101e860181ca961995</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-30 05:28:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
